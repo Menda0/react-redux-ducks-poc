@@ -1,0 +1,2 @@
+export const SET_MESSAGE = "OLD_REDUCER/SET_MESSAGE";
+
