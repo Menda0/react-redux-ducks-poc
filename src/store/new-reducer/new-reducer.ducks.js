@@ -1,9 +1,9 @@
 
-const types = {
-    SET_MESSAGE: "NEW_REDUCER/SET_MESSAGE"
+export const types = {
+    SET_MESSAGE: "react-redux-ducks-poc/new-reducer/SET_MESSAGE"
 };
 
-const actions = {
+export const actions = {
     setMessage: (message) => {
         return {
             type: types.SET_MESSAGE,
@@ -26,4 +26,4 @@ const reducer = (state = initialState, action) => {
     }
 };
 
-export default {reducer, actions, types};
+export default reducer

@@ -2,7 +2,7 @@ import React from "react";
 import {useDispatch, useSelector} from "react-redux";
 import './App.css';
 import logo from './logo.svg';
-import newReducer from "./store/new-reducer/new-reducer.ducks";
+import * as newReducer from "./store/new-reducer/new-reducer.ducks";
 import {setMessage} from "./store/old-reducer/actions";
 
 

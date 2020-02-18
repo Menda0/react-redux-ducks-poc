@@ -6,7 +6,7 @@ import newReducer from "./new-reducer/new-reducer.ducks"
 
 const rootReducer = combineReducers({
     oldReducer,
-    newReducer: newReducer.reducer
+    newReducer
 });
 
 const store = createStore(rootReducer);
